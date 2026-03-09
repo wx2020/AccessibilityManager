@@ -43,7 +43,7 @@ jobs:
 
       - name: Sign APK
         run: |
-          java -jar signapk.jar \
+          java -jar signapk-1.0.jar \
             testkey.x509.pem \
             testkey.pk8 \
             app/build/outputs/apk/release/app-release-unsigned.apk \
