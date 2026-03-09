@@ -39,7 +39,7 @@ jobs:
 
       - name: Download signapk
         run: |
-          wget https://github.com/appium/sign/releases/download/v1.0.0/signapk.jar
+          wget https://github.com/appium-boneyard/sign/releases/download/1.0/signapk-1.0.jar
 
       - name: Sign APK
         run: |
